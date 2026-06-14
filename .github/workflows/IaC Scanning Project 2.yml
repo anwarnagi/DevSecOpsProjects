@@ -17,7 +17,7 @@ jobs:
       - name: Install Trivy
         uses: aquasecurity/setup-trivy@v0.2.5
         with:
-          version: v0.69.1
+          version: latest
           cache: true
 
       - name: Run Trivy IaC misconfiguration scan
